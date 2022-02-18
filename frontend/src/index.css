@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+        @apply p-2 text-black bg-white border-2 border-black hover:bg-black hover:text-white cursor-pointer transition-all duration-200 ;
+    }
+
+};
+
+
